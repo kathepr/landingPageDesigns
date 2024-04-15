@@ -1,9 +1,59 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: avenir-roman;
+    src: url(/storage/font/Avenir/AvenirLTStd-Roman.otf) format(truetype);
+}
+@font-face {
+    font-family: avenir-book;
+    src: url(/storage/font/Avenir/AvenirLTStd-Book.otf) format(truetype);
+}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+
+.body {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.contenido {
+    text-align: center;
+    padding: 48px;
+    width: 505px;
+}
+
+.contenido__h1{
+    padding: 10px;
+    font-family: avenir-roman;
+}
+
+.contenido__p {
+    padding: 15px;
+    font-family: avenir-book
+}
+
+.contenido__button {
+    padding:10px;
+    background-color: #000000;
+    border-radius: 16px;
+    width: 158px;
+    color: #ffffff;
+    font-family: avenir-book;
+    border-color: #000000;
+    
+}
+
+
+.imagenes {
+    flex-direction: row;
+    width: 1312px;
+    
+
 }
 
