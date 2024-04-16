@@ -7,3 +7,90 @@
     box-sizing: border-box;
 }
 
+body{
+    background: var(--color-primario);
+
+
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenido {
+    font-family: "Poppins-Regular";
+    width: 449px;
+    height: 582px;
+    flex-direction: column;
+    margin-left: 50px;
+
+
+
+
+
+}
+
+
+h1{
+    font-size: 72px;
+    margin-top: 200px;
+}
+
+.contenido__h1-span1{
+    font-family: "Poppins-Bold";
+    color: var(--color-rosado);
+   
+}
+
+.contenido__h1-span2{
+    color: var(--color-celeste)
+}
+
+.contenido__h1-span3{
+    color: var(--color-verde)
+}
+
+.contenido p{
+    color: var(--color-parrafo-boton);
+    font-size: 24px;
+}
+
+.contenido button {
+    background: var(--color-parrafo-boton);
+    color: var(--color-letra-boton);
+    border: none;
+    border-radius: 36px;
+    overflow: hidden;
+    font-size: 48 24px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+
+.imagenes{
+    width: 742px;
+    height: 792px;
+    justify-content: flex-end;
+    margin: 40px;
+ 
+
+
+}
+
+.columna1{
+
+
+}
+.columna2{
+
+}
+.columna3{
+
+}
+.columna4{
+
+}
