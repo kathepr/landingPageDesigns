@@ -7,3 +7,87 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background: var(--color-primario);
+}
+
+
+.flexbox{
+    display:flex;
+    margin: 20px;
+}
+
+.content{
+    font-family: "Avenir-roman";
+    width: 400px;
+    height: 460px;
+    margin-left: 300px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 16px 32px;
+    background: var(--color-negro);
+    color: var(--color-primario);
+    border: none;
+    margin-top: 10px;
+}
+
+.images{
+    display: flex;
+    width: 408px;
+    height: 480px;
+    justify-content:flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    height: 300px;
+    width: 300;
+    gap: 20px;
+    
+    
+    
+}
+
+.images__1{
+    align-items: center;
+    margin-left: 60px;
+    width: 410px; 
+    height:400px
+}
+
+.images__2{
+    margin-top: 90px;
+    justify-content: flex-end;
+    width: 410px; 
+    height:400px
+    
+}
+
+
+.image-card{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 500px;
+    margin-left: 320px;
+    width: 50px;
+    height:400px;
+    gap: 30px
+
+    
+}
+
