@@ -7,3 +7,69 @@
     box-sizing: border-box;
 }
 
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: "Avenir-book";
+
+}
+
+.h1{
+    font-family: "Avenir-black";
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+
+.parrafo-boton{
+    width: 18%;
+    justify-content: space-between;
+    margin-right: 140px;
+    margin-bottom: 10px;
+}
+
+.parrafo-boton p{
+    
+    font-size: 16px;
+    
+}
+
+.parrafo-boton button{
+    font-size: 14px;
+    background: var(--color-negro);
+    color: var(--color-primario); 
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-top: 10px;
+    border: none;
+}
+
+.imagen{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+
+
+
+}
+
+.imagen img{
+    margin-top: 70px;
+    height: 610px;
+    margin-bottom: 30px;
+    
+}
