@@ -9,21 +9,91 @@
 
 
 .caja-principal {
+    display:flex;
+    align-items: stretch;
+    height: 890px;
+    /* background: rgb(185, 185, 255); */
+    margin-top: 2%;
     
+    
+
+   
+    
+
 }
 
 .caja-principal__imagen {
+    bottom: 0;
+    /* background: pink; */
+    width: 50%
+    
+    
+
+}
+
+.caja-principal__imagen img{
+    height: 890px;
+}
+
+.contenido{
+    padding-top: 4%;
+    font-family: "Avenir-Book";
+    width: 40%;
+    /* background: goldenrod; */
+    line-height:1.2;
+    word-spacing: 2px;
     
 }
 
-.caja-principal__contenido1 {
+
+
+.contenido__contenido1 {
+    /* background: red; */
+  
+    
     
 }
 
-.caja-principal__contenido2 {
+.contenido__contenido1 h1{
+    font-family: "Avenir-Black";
+    font-size: 64px;
+    color: var(--color-3);
+}
+
+p{
+    font-size: 26px;
+    color: var(--color-1);
+}
+
+.contenido__contenido1 button{
+    margin-top: 20px;
+    background: var(--color-3);
+    color: var(--color-4);
+    padding: 18px 48px; 
+    border-radius: 16px;
+    border: none;
+}
+
+.contenido2{
+    padding-top: 20%;
+
+
+}
+
+
+.contenido2__contenido21{
+    /* background: purple; */
+    
     
 }
 
-.caja-principal__contenido3 {
+.contenido2__contenido22 {
+    /* background: green; */
+    margin-top: 30px;
     
+}
+
+h2 {
+    font-size: 32px;
+    color: var(--color-2);
 }
