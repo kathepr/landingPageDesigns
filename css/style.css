@@ -7,3 +7,93 @@
     box-sizing: border-box;
 }
 
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin:0
+}
+
+.caja-principal {
+    width: 1324px;
+    height: 926px;
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Avenir-Book";
+    
+
+}
+
+.caja-principal__titulo {
+
+    /* background: rgb(255, 0, 140); */
+    
+}
+
+.caja-principal__titulo h1{
+    width: 833px;
+    height: 176px;
+    font-family: "Avenir-Roman";
+    color: var(--color-3);
+    font-size: 72px;
+}
+
+.caja-principal__section {
+    /* background: rgb(245, 245, 166); */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1312px;
+    height: 559px;
+    margin-top: 80px;
+    
+}
+
+.section__1 {
+    /* background: rgb(180, 180, 249); */
+    width: 316px;
+    height: 559px;
+}
+
+.section__2 {
+    /* background: rgb(139, 233, 107); */
+    width: 316px;
+    height: 559px;
+    
+}
+
+.section__3 {
+    /* background: rgb(235, 148, 34); */
+    width: 316px;
+    height: 559px;
+}
+
+.section__4 {
+    /* background: rgb(0, 247, 255); */
+    width: 316px;
+    height: 559px;
+}
+
+h2{
+    font-family: "Avenir-Roman";
+    color: var(--color-2);
+    font-size: 40px;
+}
+
+p{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: var(--color-1);
+    font-size: 24px;
+}
+
+img{
+    margin:auto;
+    display: block;
+    
+
+    /* Aquí display: block; hace que la imagen se comporte como un bloque, lo que permite que se apliquen márgenes automáticos, y margin: auto; centra la imagen horizontalmente dentro de su contenedor. */
+}
