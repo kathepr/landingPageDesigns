@@ -11,22 +11,62 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-background);
     background-image: url(/storage/img/background-image.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
     height: 100vh;
     width: 100vw;
     margin:0;
 
+    /* 
+    background-position: center; centra la imagen de fondo dentro del elemento, 
+    
+    background-repeat: no-repeat; evita que la imagen de fondo se repita, 
+    
+    background-size: cover; hace que la imagen de fondo se escale para cubrir completamente el elemento. */
+
 }
 
 .caja-principal{
-    background: rgba(250, 146, 250, 0.3);
+    /* background: rgba(250, 146, 250, 0.3); */
     justify-content: center;
     align-content: center;
-    width: 42.25%;
-    height: 26.13%;
+    width: 676px;
+    height: 418px;
+    text-align: center;
+    margin-bottom: 50px;
+ 
+
+
+    
 
 }
 
 .caja-principal h1{
+    width: 676px;
+    height: 192px;
+    font-family: "Lato-Bold";
+    font-size: 80px;
     
+}
+
+.caja-principal p{
+    width: 632px;
+    height: 96px;
+    font-size: 24px; 
+    font-family: "Lato-Regular";
+    margin-top: 30px;
+}
+
+.caja-principal button{
+    font-family: "Lato-Light";
+    font-size: 24px; 
+    padding: 24px 56px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border: none;
+    border-radius: 40px;
+    margin-top: 25px;
 }

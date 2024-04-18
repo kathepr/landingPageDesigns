@@ -1,6 +1,8 @@
 :root{
     --color-1: #06040A; /* Negro Titulo - parrafo - boton */
     --color-2: #FFFFFF; /* Blanco 100% */
+    --color-background: #F3F1F2;
+
 }
 
 @font-face {
@@ -11,5 +13,10 @@
 @font-face {
     font-family: "Lato-Regular";
     src: url("/storage/font/Lato/Lato-Regular.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("/storage/font/Lato/Lato-Light.ttf") format(truetype);
 }
 
