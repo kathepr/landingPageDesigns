@@ -1,3 +1,28 @@
 :root{
-    --color-primario: #ff0000;
+    --color-1: #111111; /* Negro de las lista inferior */
+    --color-2: #333333; /* Negro de letras en icono circular, del parrafo, del botón sin fondo*/
+    --color-3: #050505; /* Negro del Titulo */
+    --color-4: #FFFFFF; /* Blanco del botón con fondo negro, de las tags en las imagenes */
+    --color-5: #685FD4 /* Morado de las tags */
+
+}
+
+@font-face {
+    font-family: "Times-Regular";
+    src: url("/storage/font/Times-Regular/Times\ Regular.ttf") format(truetype); /*letras en icono circular*/
+}
+
+@font-face {
+    font-family: "Playfair-Display-Bold";
+    src: url("/storage/font/PlayFair-Display/PlayfairDisplay-Bold.ttf") format(truetype); /*titulo*/
+}
+
+@font-face {
+    font-family: "Work-Sans-Regular";
+    src: url("/storage/font/Work-Sans/WorkSans-Regular.ttf") format(truetype); /*parrafo, lista inferior, tags morados*/
+}
+
+@font-face {
+    font-family: "Work-Sans-Medium";
+    src: url("/storage/font/Work-Sans/WorkSans-Medium.ttf") format(truetype); /*botones*/
 }
