@@ -7,3 +7,175 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.caja-principal {
+    background-color: rgb(255, 0, 153);
+    display: flex;
+    width: 1440px;
+    height: 933px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja-principal__contenido {
+    background-color: rgb(155, 227, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    width: 653px;
+    height: 804.25px;
+
+}
+
+.contenido__icono-circular {
+    background-color: rgb(157, 104, 207);
+    width: 101.04px;
+    height: 101.16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.contenido__icono-circular svg{
+    margin:auto;
+    display: block;
+    
+
+    
+}
+
+.contenido__icono-circular svg text textPath{
+    background-color: darkseagreen;
+    font-family: 'Times New Roman';
+    font-size: 9px;
+    letter-spacing: 3px;
+ 
+}
+
+
+.contenido__main {
+    background-color: aquamarine;
+    width: 653px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenido__main h1{
+    width: 629px;
+    height: 240px;
+    font-family: "Playfair-Display-Bold";
+    font-size: 64px;
+    
+    
+}
+.contenido__main p{
+    width: 629px;
+    height: 90px;
+    font-family: "Work-Sans-Regular";
+    font-size: 24px;
+
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    width: 219px;
+    height: 66px;
+    padding: 24px 48px; 
+    border-radius: 16px;
+    font-family: "Work-Sans-Medium";
+    font-size: 18px;
+
+}
+
+
+
+.contenido__listas {
+    background-color: rgb(255, 162, 55);
+    width: 652px;
+    height: 118px;
+    
+}
+
+.listas {
+    background-color: rgb(38, 116, 233);
+    display: flex;
+    flex-direction: row;
+}
+
+.listas li img{
+    width: 24px;
+    height: 24px;
+}
+
+.listas li p{
+    font-family: "Work-Sans-Regular";
+    font-size: 16px;
+}
+
+
+.caja-principal__imagenes {
+    background-color: rgb(234, 246, 143);
+    display: flex;
+    flex-direction: column;
+    width: 635.31px;
+    height: 778.19px;
+
+}
+
+.imagenes__starAbove{
+    width: 135.85px;
+    height: 135.85px;
+}
+.imagenes__biggestBorder{
+    width: 480px;
+    height: 568px;
+    
+}
+.imagenes__mainImage{
+    width: 480px;
+    height: 628px;
+
+}
+
+.imagenes__estrellaDentro{
+    width: 75px;
+    height: 94.59px;
+}
+
+
+.imagenes__starBellow{
+    width: 102.74px;
+    height: 129.58px;
+}
+
+.imagenes__smallBorder{
+    width: 310px;
+    height: 476px;
+}
+
+.caja-principal__imagenes p{
+    font-family: "Work-Sans-Regular";
+    font-size: 18px;
+    background-color: var(--color-5);
+    width: 204px;
+    height: 21px;
+    border-radius: 16px;
+}
+
+
+
