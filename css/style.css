@@ -175,42 +175,80 @@ button{
 .imagenes__starAbove{
     width: 135.85px;
     height: 135.85px;
+    z-index: 2;
 }
 .imagenes__biggestBorder{
     width: 480px;
     height: 568px;
+    margin-left: 68px;
+    transform: translateY(-110px);
+    z-index: 1;
+
     
 }
 .imagenes__mainImage{
     width: 480px;
     height: 628px;
+    margin-left: 120px;
+    transform: translateY(-610px);
+    z-index: 2;
+
 
 }
 
 .imagenes__estrellaDentro{
     width: 75px;
     height: 94.59px;
+    margin-left: 160px;
+    transform: translateY(-1160px);
+    z-index: 3;
 }
 
 
 .imagenes__starBellow{
     width: 102.74px;
     height: 129.58px;
+    margin-left: 490px;
+    transform: translateY(-900px);
+    z-index: 3;
 }
 
 .imagenes__smallBorder{
     width: 310px;
     height: 476px;
+    margin-left: 326px;
+    transform: translateY(-1250px);
+    z-index: 1;
 }
 
 .caja-principal__imagenes p{
     font-family: "Work-Sans-Regular";
-    font-size: 18px;
+    font-size: 14px;
     background-color: var(--color-5);
     width: 204px;
     height: 21px;
     border-radius: 16px;
+    color: var(--color-4);
+    
+    
+    
 }
 
 
+.parrafo1{
+    margin-left: 430px;
+    transform: translateY(-1900px);
+    z-index: 3;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.parrafo2{
+
+    margin-left: 50px;
+    transform: translateY(-1430px);
+    z-index: 3;
+    padding: 20px 20px;
+    text-align: center;
+}
 
