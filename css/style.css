@@ -42,6 +42,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    margin-bottom: 20px;
     
 }
 
@@ -68,6 +69,8 @@ body{
     height: 460px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 90px;
+    gap: 30px;
 
 }
 
@@ -76,6 +79,8 @@ body{
     height: 240px;
     font-family: "Playfair-Display-Bold";
     font-size: 64px;
+    background-color: blueviolet;
+    
     
     
 }
@@ -84,12 +89,27 @@ body{
     height: 90px;
     font-family: "Work-Sans-Regular";
     font-size: 24px;
+    background-color: brown;
+    line-height:1.2;
+    
 
 }
 
 .button{
     display: flex;
     flex-direction: row;
+    background-color: darkblue;
+    
+    
+}
+
+.button :first-child{
+    background-color: var(--color-3);
+    color: var(--color-4)
+    
+}
+.button :last-child{
+    margin-left: 70px
 }
 
 button{
@@ -99,6 +119,8 @@ button{
     border-radius: 16px;
     font-family: "Work-Sans-Medium";
     font-size: 18px;
+    border-color: black;
+    border-style: solid;
 
 }
 
@@ -108,6 +130,7 @@ button{
     background-color: rgb(255, 162, 55);
     width: 652px;
     height: 118px;
+    margin-bottom: 20px;
     
 }
 
@@ -115,6 +138,17 @@ button{
     background-color: rgb(38, 116, 233);
     display: flex;
     flex-direction: row;
+    align-content: flex-end;
+    border-color: black;
+    border-style: solid;
+    border-radius: 24px;
+    padding: 24px 24px;
+    gap: 80px;
+
+}
+
+.listas li{
+    list-style-type: none;
 }
 
 .listas li img{
