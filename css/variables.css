@@ -1,3 +1,21 @@
 :root{
-    --color-primario: #ff0000;
+    --color-primario: #A52406;
+    --color-2:  #FFFFFF; /*Blanco*/
+    --color-4: #080808; /*Negro*/
+
+}
+
+@font-face {
+    font-family: "Work-Sans-Bold";
+    src: url("/storage/font/Work-Sans/WorkSans-Bold.ttf") format(truetype); /*h1*/
+}
+
+@font-face {
+    font-family: "Work-Sans-Light";
+    src: url("/storage/font/Work-Sans/WorkSans-Light.ttf") format(truetype); /*parrafo*/
+}
+
+@font-face {
+    font-family: "Work-Sans-Medium";
+    src: url("/storage/font/Work-Sans/WorkSans-Medium.ttf") format(truetype); /*button*/
 }
