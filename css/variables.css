@@ -1,3 +1,23 @@
 :root{
-    --color-primario: #ff0000;
+    --color-primario: #C8CCCF;
+    /*Background-color*/
+    --color-letras: #363830; 
+    /*Color de las fuentes*/
+    --color-blanco: #FFFFFF;
+    /*Color botón*/
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(/storage/font/Poppins/Poppins-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(/storage/font/Poppins/Poppins-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(/storage/font/Poppins/Poppins-SemiBold.ttf) format(truetype);
 }
