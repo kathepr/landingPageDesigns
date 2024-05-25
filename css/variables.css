@@ -9,20 +9,20 @@
 
 @font-face {
     font-family: "Times-Regular";
-    src: url("/storage/font/Times-Regular/Times\ Regular.ttf") format(truetype); /*letras en icono circular*/
+    src: url("../storage/font/Times-Regular/Times\ Regular.ttf") format(truetype); /*letras en icono circular*/
 }
 
 @font-face {
     font-family: "Playfair-Display-Bold";
-    src: url("/storage/font/PlayFair-Display/PlayfairDisplay-Bold.ttf") format(truetype); /*titulo*/
+    src: url("../storage/font/PlayFair-Display/PlayfairDisplay-Bold.ttf") format(truetype); /*titulo*/
 }
 
 @font-face {
     font-family: "Work-Sans-Regular";
-    src: url("/storage/font/Work-Sans/WorkSans-Regular.ttf") format(truetype); /*parrafo, lista inferior, tags morados*/
+    src: url("../storage/font/Work-Sans/WorkSans-Regular.ttf") format(truetype); /*parrafo, lista inferior, tags morados*/
 }
 
 @font-face {
     font-family: "Work-Sans-Medium";
-    src: url("/storage/font/Work-Sans/WorkSans-Medium.ttf") format(truetype); /*botones*/
+    src: url("../storage/font/Work-Sans/WorkSans-Medium.ttf") format(truetype); /*botones*/
 }
