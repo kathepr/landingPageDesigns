@@ -6,13 +6,13 @@
 
 @font-face {
     font-family: "Avenir-roman";
-    src: url(/storage/font/Avenir/AvenirLTStd-Roman.otf) format(truetype);
+    src: url(../storage/font/Avenir/AvenirLTStd-Roman.otf) format(truetype);
 }
 @font-face {
     font-family: "Avenir-black";
-    src: url(/storage/font/Avenir/AvenirLTStd-Black.otf) format(truetype);
+    src: url(../storage/font/Avenir/AvenirLTStd-Black.otf) format(truetype);
 }
 @font-face {
     font-family: "Avenir-book";
-    src: url(/storage/font/Avenir/AvenirLTStd-Book.otf) format(truetype);
+    src: url(../storage/font/Avenir/AvenirLTStd-Book.otf) format(truetype);
 }
