@@ -8,15 +8,15 @@
 
 @font-face {
     font-family: "Work-Sans-Bold";
-    src: url("/storage/font/Work-Sans/WorkSans-Bold.ttf") format(truetype); /*h1*/
+    src: url("../storage/font/Work-Sans/WorkSans-Bold.ttf") format(truetype); /*h1*/
 }
 
 @font-face {
     font-family: "Work-Sans-Light";
-    src: url("/storage/font/Work-Sans/WorkSans-Light.ttf") format(truetype); /*parrafo*/
+    src: url("../storage/font/Work-Sans/WorkSans-Light.ttf") format(truetype); /*parrafo*/
 }
 
 @font-face {
     font-family: "Work-Sans-Medium";
-    src: url("/storage/font/Work-Sans/WorkSans-Medium.ttf") format(truetype); /*button*/
+    src: url("../storage/font/Work-Sans/WorkSans-Medium.ttf") format(truetype); /*button*/
 }
