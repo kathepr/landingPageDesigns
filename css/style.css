@@ -1,9 +1,98 @@
 @import url(variables.css);
-
-
-* {
+*{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
+
+.body__background-color {
+    width: 1000px;
+    position: absolute;
+    z-index: 0;
+}
+
+.body__main-content {
+    z-index: 5;
+    transform: translate(20%, 50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 418px;
+    color: var(--color-content);
+}
+
+.body__main-content p{
+    font-family: "Lato-Regular";   
+    font-size: 24px;
+}
+
+h2{
+    font-family: "Lato-Bold";
+    font-size: 80px;
+}
+
+button{
+    width: 291px;
+    height: 66px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 40px;
+    font-family: "Lato-Regular";
+    color: var(--color-content);
+    background-color: var(--color-button);
+}
+
+
+.body__perro {
+    transform: translate(150%, 15%);
+    position: absolute;
+    z-index: 10;
+}
+.body__asterisco {
+    transform: translate(620%, 290%);
+    position: absolute;
+    z-index: 9;
+}
+.body__huella-derecha {
+    transform: translate(300%, 0%);
+    position: absolute;
+    z-index: 3;
+}
+.body__huella-izquierda {
+    transform: translate(50%, 90%);
+    position: absolute;
+    z-index: 3;
+}
+.body__icono-circular {
+    transform: translate(400%, 40%);
+    position: absolute;
+    z-index: 2;
+}
+
+
+.body__frame {
+    transform: translate(10%, 510%);
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    width: 1190px;
+    height: 156px;
+    background-color: var(--color-bodyframe);
+    border-radius: 24px ;
+}
+.frame {
+    display: flex;
+    width: 318px;
+    height: 76px;
+}
+.grid__text {
+    font-family: "Lato-Regular";
+    display: flex;
+    flex-direction: column;
+}
